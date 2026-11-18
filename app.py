@@ -8,4 +8,4 @@ def home():
 
 @app.get("/health")
 def health():
-    return jsonify(status="healthy"), 200
+    return jsonify(status="healthy"), 503
